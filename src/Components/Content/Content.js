@@ -188,7 +188,7 @@ export default function Content(props) {
     </div>
 
     <div className={styles.razorpay}>
-        <img src={Razorpay} className={styles.razorpayImg}></img>
+        <img src={Razorpay} alt ="Razorpay" className={styles.razorpayImg}></img>
     </div>
  </div>
  </div>
