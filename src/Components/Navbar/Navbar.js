@@ -10,13 +10,13 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.container}>
           <div className={styles.leftcontent}>
-            <img src={logo} alt="Logo" />
-            <div className={styles.coursesSection}>
+            <img src={logo} alt="Logo" style={{ cursor: "pointer" }} />
+            <div className={styles.coursesSection} style={{ cursor: "pointer" }}>
               Courses
               <FontAwesomeIcon icon={faChevronDown} style={{ color: '#000000' }} />
             </div>
 
-            <div className={styles.programsSection}>
+            <div className={styles.programsSection} style={{ cursor: "pointer" }}>
               Programs
               <FontAwesomeIcon icon={faChevronDown} style={{ color: '#000000' }} />
             </div>
@@ -24,9 +24,9 @@ const Navbar = () => {
 
         <div className={styles.rightcontent}>
 
-        <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#000000",}} />
+        <FontAwesomeIcon icon={faMagnifyingGlass} style={{color: "#000000", cursor: "pointer"}} />
 
-        <div className= {styles.logIn}>
+        <div className= {styles.logIn} onClick={null} style={{ cursor: "pointer" }}>
           Log In
         </div>
 

@@ -271,12 +271,12 @@ export default function Content(props) {
         </div>
 
         <div className={styles.buttonContainer}>
-          <button className={styles.cancel}>CANCEL</button>
-          <button className={styles.payment}>PROCEED TO PAY</button>
+          <button className={styles.cancel} onClick={null} style={{ cursor: "pointer" }}>CANCEL</button>
+          <button className={styles.payment} onClick={null} style={{ cursor: "pointer" }}>PROCEED TO PAY</button>
         </div>
 
         <div className={styles.razorpay}>
-          <img src={Razorpay} alt="Razorpay" className={styles.razorpayImg} />
+          <img src={Razorpay} alt="Razorpay" className={styles.razorpayImg} style={{ cursor: "pointer" }}/>
         </div>
       </div>
     </div>
